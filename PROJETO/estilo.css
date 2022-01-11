@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+</style>
+body{
+font-family: 'Fugaz One', cursive;
+	font-family:lucida sans unicode, verdana,sans serif;
+	
+	/*background-color: #D3D3D3;*/
+	
+}
+.site{
+    margin: 0 auto;
+	width: 1000px;
+	font-size: 18px;
+}
+.grupo{
+
+    float: left;
+    width: 1000px;
+
+}
+.bloco{
+	float: left;
+	background: rgba(255,255,255,0.3);
+	/*background-color: #696969;
+	border: 5px solid #696969;*/
+	margin-bottom: 30px;
+	padding: 8px;
+	text-align: justify; 
+}
+.bloco img{
+
+	margin: 10px;
+	float: left;
+	width: 180px;	
+}
+/*.bloco h2{ Cria-se uma linha 
+    margin: 8;
+    border-bottom: 1px dashed #696969;
+}*/.bloco p{
+    background-color: white;
+	padding: 20px;
+	background: #FFF; /* fundo branco para navegadores que não suportam rgba */
+    background: rgba(255,255,255,0.8); /* fundo branco com um pouco de transparência */
+    box-shadow: 5px 5px 5px black;
+}
+nav#menu li{
+	align: center;
+	top: -20px;
+	
+    position: relative;
+	margin: -5px;
+	padding: 20px;
+	display: inline;
+	background-color: black;
+}
+nav#menu ul a{
+	list-style: none;/*tira as bolinhas do lado*/
+    text-transform: uppercase;
+    position: relative;
+	text-decoration: underline;
+	color: white; 
+}
+.rodape {
+	text-align: center;
+    clear:both;
+}
+.simbolos img{
+	width:80px;
+	float: right;
+	top:180px;
+	right: 900px;
+}
+.bloco h2{
+	text-shadow:5px 5px 5px black;
+	color:pink;
+	font-family: 'Anton', sans-serif;
+	font-size: 30PX;
+
+}
+ .saku{
+
+
+ 	float: left;
+	background: rgba(255,255,255,0.3);
+	/*background-color: #696969;
+	border: 5px solid #696969;*/
+	margin-bottom: 80px;
+	padding: 8px;
+	text-align: justify; 
+	top: 80px;
+}
+.saku img{
+	margin: 5px;
+	float: left;
+	width: 380px;
+}
+.saku h1{
+	text-shadow:5px 5px 5px black;
+	color:white;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+}
+.saku p{
+   font-size: 15px
+
+}
+.enredo{
+    float: left;
+	background: rgba(255,255,255,0.3);
+	/*background-color: #696969;
+	border: 5px solid #696969;*/
+	margin-bottom: 80px;
+	padding: 8px;
+	text-align: justify; 
+	top: 80px;
+}
+.enredo img{
+    margin: 5px;
+	float: left;
+	width: 380px;
+}
+.enredo h1{
+    text-shadow:5px 5px 5px black;
+	color:white;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+}
+.enredo p{
+     font-size: 15px
+}
+.cardcaptors{
+ float: left;
+	background: rgba(255,255,255,0.3);
+	/*background-color: #696969;
+	border: 5px solid #696969;*/
+	margin-bottom: 80px;
+	padding: 8px;
+	text-align: justify; 
+	top: 80px;
+}
+.cardcaptors img{
+   margin: 5px;
+	float: left;
+	width: 380px;
+}
+
+.cardcaptors h1{
+    text-shadow:5px 5px 5px black;
+	color:white;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+}
+.cardcaptors p{
+	font-size: 15px
+	}
+.cartas-clows{
+    float: left;
+	background: rgba(255,255,255,0.3);
+	/*background-color: #696969;
+	border: 5px solid #696969;*/
+	margin-bottom: 80px;
+	padding: 8px;
+	text-align: justify; 
+	top: 80px;
+}
+.cartas-clow img{
+    margin: 5px;
+	float: left;
+	width: 380px;
+}
+.cartas-clows h1{
+    text-shadow:5px 5px 5px black;
+	color:white;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+}
+.cartas-clows p{
+     font-size: 15px
+
+}
+.tomoeda{
+    float: left;
+	background: rgba(255,255,255,0.3);
+	/*background-color: #696969;
+	border: 5px solid #696969;*/
+	margin-bottom: 80px;
+	padding: 8px;
+	text-align: justify; 
+	top: 80px;
+}
+.tomoeda img{
+    margin: 5px;
+	float: left;
+	width: 380px;
+}
+.tomoeda h1{
+    text-shadow:5px 5px 5px black;
+	color:white;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+}
+.tomoeda p{
+     font-size: 15px
+}
+.personagens{
+    float: left;
+	background: rgba(255,255,255,0.3);
+	/*background-color: #696969;
+	border: 5px solid #696969;*/
+	margin-bottom: 80px;
+	padding: 8px;
+	text-align: justify; 
+	top: 80px;
+}
+.personagens img{
+    margin: 5px;
+	float: left;
+	width: 380px;
+}
+.personagens h1{
+    text-shadow:5px 5px 5px black;
+	color:white;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+}
+.personagens p{
+     font-size: 15px
+
+}
+.filmes{
+    float: left;
+	background: rgba(255,255,255,0.3);
+	/*background-color: #696969;
+	border: 5px solid #696969;*/
+	margin-bottom: 80px;
+	padding: 8px;
+	text-align: justify; 
+	top: 80px;
+}
+.filmes img{
+    margin: 5px;
+	float: left;
+	width: 380px;
+}
+.filmes h1{
+    text-shadow:5px 5px 5px black;
+	color:white;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+}
+.filmes p{
+     font-size: 15px
+}
+
+}
+html#Florde{
+	background: url(fundo.jpg) no-repeat center center fixed;
+	-webkit-background:cover;
+	-moz-background-size:cover;
+	background-size:cover;  
+}	
+html#Sakura{
+background: url(1.jpg) no-repeat center center fixed;
+	-webkit-background:cover;
+	-moz-background-size:cover;
+	background-size:cover; 
+}
+html#Enred{
+background: url(saku.png) no-repeat center center fixed;
+	-webkit-background:cover;
+	-moz-background-size:cover;
+	background-size:cover; 
+}
+html#Card{
+background: url(ps.jpg) no-repeat center center fixed;
+	-webkit-background:cover;
+	-moz-background-size:cover;
+	background-size:cover; 
+}html#Pers{
+background: url(pers.png) no-repeat center center fixed;
+	-webkit-background:cover;
+	-moz-background-size:cover;
+	background-size:cover; 
+}html#Filmes{
+background: url(filmes.jpg) no-repeat center center fixed;
+	-webkit-background:cover;
+	-moz-background-size:cover;
+	background-size:cover; 
+}

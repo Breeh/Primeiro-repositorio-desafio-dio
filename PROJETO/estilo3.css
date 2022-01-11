@@ -1,0 +1,53 @@
+/*body{ 
+background-color:#B22222;
+}*/
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Tahoma, sans-serif;
+}
+ 
+#fundo-externo {
+    overflow: hidden; /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+    width: 100%;
+    height: 100%;
+    position: relative; /* criamos um contexto para posicionamento */
+    box-shadow: 5px 5px 5px white;
+}
+ 
+#fundo {
+    position: fixed; /* posição fixa para que a possível rolagem da tela não revele espaços em branco */
+    width: 100%;
+    height: 100%;
+
+}
+#fundo img {
+    width: 100%; /* com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer */
+    position: absolute;
+}
+#site {
+    position: absolute;/*permite que o conteudo esteja por cima do plano de fundo*/
+    top: 40px;
+    left: 50%;
+    width: 1000px; /*tamanho do texto que esta no fundo branco*/
+    padding: 20px;
+    margin-left: -500px; /* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
+    background: #FFF; /* fundo branco para navegadores que não suportam rgba */
+    background: rgba(255,255,255,0.6); /* fundo branco com um pouco de transparência */
+    box-shadow: 5px 5px 5px white;
+}
+figure.tela_pricipal.p{
+    font-color:white;
+
+}
+p{
+    position: absolute;
+   text-align:justify; 
+   text-indent: 90px; 
+}
+ 
+ body{
+    background:white; 
+}
+  
+
